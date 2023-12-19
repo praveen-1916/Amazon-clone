@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="icon" href="Icon.jpeg">
+    <link rel="stylesheet" href="amazon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!--------- Nav bar -------->
+
+    <header>
+        <div class="nav-bar ">
+            <div class="nav-logo">
+                <div class="logo amazon-icon-border"></div>
+            </div>
+
+            <div class="nav-adress Adress-border">
+                <div class="location-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <div class="location">
+                    <div class="delivery">Deliver to</div>
+                    <div class="delivery-location">India</div>
+                </div>
+            </div>
+
+            <div class="nav-search">
+                <div class="select">
+                    <select name="Items" id="Items">
+                        <option value="All">All</option>
+                    </select>
+                </div>
+                <div class="search">
+                    <input class="search-bar" type="text" placeholder="Search Amazon">
+                </div>
+                <div class="search-icon">
+                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+            </div>
+
+            <div class="nav-Language Lang-border">
+                <div class="nav-lang-box">
+                    <div class="lang-flag"></div>
+                    <div class="lang-name">
+                        EN
+                    </div>
+                    <div class="lang-icon">
+                        <i class="fa-solid fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-sign-in border">
+                <div class="sign-line-1">Hello, sign in</div>
+                <div>
+                    <span>Accounts & Lists</span>
+                    <span id="icon-bottom"><i class="fa-solid fa-caret-down"></i></span>
+                </div>
+            </div>
+
+            <div class="nav-returns-orders border">
+                <span>Returns</span>
+                <span>& Orders</span>
+            </div>
+
+            <div class="nav-cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+
+                <div class="cart-name">
+                    Cart
+                </div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-all all-border">
+                <i class="fa-solid fa-bars"></i>
+                <span>All</span>
+            </div>
+            <div class="panel-items">
+                <a href="#" class="Panel-border">Today's deals</a>
+                <a href="#" class="Panel-border">Coustomer Service</a>
+                <a href="#" class="Panel-border">Registry</a>
+                <a href="#" class="Panel-border">Gift Cards</a>
+                <a href="#" class="Panel-border">Sell</a>
+            </div>
+            <div class="panel-top-categories">
+                <a href="#">Shop top categories</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="hero-image">
+            <div class="hero-msg">
+                <span>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local
+                    delivery. </span>
+                <a href="#">Click here to go to amazon.in</a>
+            </div>
+        </div>
+
+        <div class="shop-section">
+            <div class="box1 box">
+                <div class="box-content">
+                    <h2>Clothes</h2>
+                    <div class="box-img" style="background-image: url('box1_image.jpg');"></div>
+                    <a href="#">See more</a>
+                </div>
+            </div>
+            <div class="box2 box">
+                <div class="box-content">
+                    <h2>Health & Personal care</h2>
+                    <div class="box-img" style="background-image: url('box2_image.jpg');"></div>
+                    <a href="#">Shop now</a>
+                </div>
+            </div>
+            <div class="box3 box">
+                <div class="box-content">
+                    <h2>Furniture</h2>
+                    <div class="box-img" style="background-image: url('box3_image.jpg');"></div>
+                    <a href="#">See more</a>
+                </div>
+            </div>
+            <div class="box4 box">
+                <div class="box-content">
+                    <h2>Electronics</h2>
+                    <div class="box-img" style="background-image: url('box4_image.jpg');"></div>
+                    <a href="#">See more</a>
+                </div>
+            </div>
+            <div class="box5 box">
+                <div class="box-content">
+                    <h2>Beauty picks</h2>
+                    <div class="box-img" style="background-image: url('box5_image.jpg');"></div>
+                    <a href="#">Shop now</a>
+                </div>
+            </div>
+            <div class="box6 box">
+                <div class="box-content">
+                    <h2>Pets</h2>
+                    <div class="box-img" style="background-image: url('box6_image.jpg');"></div>
+                    <a href="#">See more</a>
+                </div>
+            </div>
+            <div class="box7 box">
+                <div class="box-content">
+                    <h2>Toys for kids</h2>
+                    <div class="box-img" style="background-image: url('box7_image.jpg');"></div>
+                    <a href="#">See more</a>
+                </div>
+            </div>
+            <div class="box8 box">
+                <div class="box-content">
+                    <h2>Discover fashion trends</h2>
+                    <div class="box-img" style="background-image: url('box8_image.jpg');"></div>
+                    <a href="#">See more</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-frame">
+            <div class="bottom-sign-border">
+                <div class="bottom-sign-in">
+                    <div class="bottom-msg">See personalized recommendations</div>
+                    <span class="bottom-sigin-button"><button>Sign In</button></span>
+                    <div class="bottom-service">New customer? <a href="#">Start here.</a></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+        <a href="#" class="footer-back" style="text-decoration: none;">Back to top</a>
+
+        <div class="footer-section-1">
+            <div class="footer-items">
+                <div class="footer-title">Get to know us</div>
+                <ul>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About Amazon</a></li>
+                    <li><a href="#">Investor Relations</a></li>
+                    <li><a href="#">Amazon Devices</a></li>
+                    <li><a href="#">Amazon Science</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-items" style="width: 164px;">
+                <div class="footer-title">Make Money with Us</div>
+                <ul>
+                    <li><a href="#">Sell products on Amazon</a></li>
+                    <li><a href="#">Sell on Amazon Business</a></li>
+                    <li><a href="#">Sell apps on Amazon</a></li>
+                    <li><a href="#">Become an Affiliate</a></li>
+                    <li><a href="#">Advertise Your Products</a></li>
+                    <li><a href="#">Self-Publish with Us</a></li>
+                    <li><a href="#">Host an Amazon Hub</a></li>
+                    <li><a href="#">›See More Make Money with Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-items" style="width: 210px;">
+                <div class="footer-title">Amazon Payment Products</div>
+                <ul>
+                    <li><a href="#">Amazon Business Card</a></li>
+                    <li><a href="#">Shop with Points</a></li>
+                    <li><a href="#">Reload Your Balance</a></li>
+                    <li><a href="#">Amazon Currency Converter</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-items" style="width: 138px;">
+                <div class="footer-title">Let Us Help You</div>
+                <ul>
+                    <li><a href="#">Amazon and COVID-19</a></li>
+                    <li><a href="#">Your Account</a></li>
+                    <li><a href="#">Your Orders</a></li>
+                    <li><a href="#">Shipping Rates & Policies</a></li>
+                    <li><a href="#">Returns & Replacements</a></li>
+                    <li><a href="#">Manage Your Content and Devices</a></li>
+                    <li><a href="#">Amazon Assistant</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-line"></div>
+
+        <div class="footer-section-2">
+            <span class="footer-logo">
+                <div class="footer-amazon-logo"></div>
+            </span>
+            <span class="footer-details">
+                <div class="footer-section-2-details">
+                    <a href="#">
+                        <span><i class="fa-solid fa-globe"></i></span>
+                        <span>English</span>
+                    </a>
+                    <a href="#">
+                        <span><i class="fa-solid fa-dollar-sign"
+                                style="height: 18px; width: 8px; font-size: 13px;"></i></span>
+                        <span>USD - U.S. Dollar</span>
+                    </a>
+                    <a href="#">
+                        <span><i class="fa-solid fa-flag-usa" style="height: 12px; width: 18px;"></i></span>
+                        <span>United States</span>
+                    </a>
+                </div>
+            </span>
+        </div>
+
+        <div class="footer-section-3">
+            <table>
+                <tr>
+                    <td class="footer-option-items column-1"><a href="#">Amazon Music<br><span>Stream millions of
+                                songs</span></a></td>
+                    <td class="footer-option-items-sp"></td>
+                    <td class="footer-option-items column-2"><a href="#">Amazon Advertising<br><span>Find, attract, and
+                                engage customers</span></a></td>
+                    <td class="footer-option-items-sp"></td>
+                    <td class="footer-option-items column-3"><a href="#">6pm<br><span>Score deals on fashion
+                                brands</span></a></td>
+                    <td class="footer-option-items-sp"></td>
+                    <td class="footer-option-items column-4"><a href="#">AbeBooks<br><span>Books, art &
+                                collectibles</span></a></td>
+                    <td class="footer-option-items-sp"></td>
+                    <td class="footer-option-items column-5"><a href="#">ACX<br><span>Audiobook Publishing Made
+                                Easy</span></a></td>
+                    <td class="footer-option-items-sp"></td>
+                    <td class="footer-option-items column-6"><a href="#">Sell on Amozon<br><span>Start a Selling
+                                Account</span></a></td>
+                    <td class="footer-option-items-sp"></td>
+                    <td class="footer-option-items column-7"><a href="#">Amozon Business<br><span>Everything For Your
+                                Business</span></a></td>
+                </tr>
+                <tr>
+                    <td style="height: 16px; width: 99px; padding: 0 9px;"></td>
+                </tr>
+                <tr>
+                    <td class="footer-option-items column-1"><a href="#">Amp<br><span>Host your own live radio show with
+                                music you love</span></a></td>
+                    <td class="footer-option-items-sp"></td>
+                    <td class="footer-option-items column-2"><a href="#">AmazonGlobal<br><span>Ship Orders
+                                Internationally</span></a></td>
+                    <td class="footer-option-items-sp"></td>
+                    <td class="footer-option-items column-3"><a href="#">Home Services<br><span>Experienced Pros
+                                Happiness Guarantee</span></a></td>
+                    <td class="footer-option-items-sp"></td>
+                    <td class="footer-option-items column-4"><a href="#">Amazon Web Services<br><span>Scalable Cloud
+                                Computing Services</span></a></td>
+                    <td class="footer-option-items-sp"></td>
+                    <td class="footer-option-items column-5"><a href="#">Audible<br><span>Listen to Books & Original
+                                Audio Performances</span></a></td>
+                    <td class="footer-option-items-sp"></td>
+                    <td class="footer-option-items column-6"><a href="#">Box Office Mojo<br><span>Find Movie Box Office
+                                Data</span></a></td>
+                    <td class="footer-option-items-sp"></td>
+                    <td class="footer-option-items column-7"><a href="#">Goodreads<br><span>Book reviews &
+                                recommendations</span></a></td>
+                </tr>
+                <tr>
+                    <td style="height: 16px; width: 99px; padding: 0 9px"></td>
+                </tr>
+                <tr>
+                    <td class="footer-option-items column-1"><a href="#">IMDb<br><span>Movies, TV &
+                                Celebrities</span></a></td>
+                    <td class="footer-option-items-sp"></td>
+                    <td class="footer-option-items column-2"><a href="#">IMDbPro<br><span>Get Info Entertainment
+                                Professionals Need</span></a></td>
+                    <td class="footer-option-items-sp"></td>
+                    <td class="footer-option-items column-3"><a href="#">Kindle Direct Publishing<br><span>Indie Digital
+                                & Print Publishing Made Easy</span></a></td>
+                    <td class="footer-option-items-sp"></td>
+                    <td class="footer-option-items column-4"><a href="#">Prime Video Direct<br><span>Video Distribution
+                                Made Easy</span></a></td>
+                    <td class="footer-option-items-sp"></td>
+                    <td class="footer-option-items column-5"><a href="#">Shopbop<br><span>Designer Fashion
+                                Brands</span></a></td>
+                    <td class="footer-option-items-sp"></td>
+                    <td class="footer-option-items column-6"><a href="#">Woot!<br><span>Deals and Shenanigans</span></a>
+                    </td>
+                    <td class="footer-option-items-sp"></td>
+                    <td class="footer-option-items column-7"><a href="#">Zappos<br><span>Shoes & Clothing</span></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="height: 16px; width: 99px; padding: 0 9px"></td>
+                </tr>
+                <tr">
+                    <td class="footer-option-items column-1"><a href="#">Ring<br><span>Smart Home Security
+                                Systems</span></a></td>
+                    <td class="footer-option-items-sp"></td>
+                    <td class="footer-option-items column-2"><a href="#">eeroWiFi<br><span>Stream 4K Video in Every
+                                Room</span></a></td>
+                    <td class="footer-option-items-sp"></td>
+                    <td class="footer-option-items column-3"><a href="#">Blink<br><span>Smart Security for Every
+                                Home</span></a></td>
+                    <td class="footer-option-items-sp"></td>
+                    <td class="footer-option-items column-4"><a href="#">Neighbors App<br><span>Real-Time Crime & Safety
+                                Alerts</span></a></td>
+                    <td class="footer-option-items-sp"></td>
+                    <td class="footer-option-items column-5"><a href="#">Amazon Subscription Boxes<br><span>Top
+                                subscription boxes – right to your door</span></a></td>
+                    <td class="footer-option-items-sp"></td>
+                    <td class="footer-option-items column-6"><a href="#">PillPack<br><span>Pharmacy
+                                Simplified</span></a></td>
+                    <td class="footer-option-items-sp"></td>
+                    <td class="footer-option-items column-7"><a href="#"><br><span></span></a></td>
+                    </tr>
+            </table>
+        </div>
+
+        <div class="footer-section-4">
+            <ul>
+                <li><a href="#">Conditions of Use</a></li>
+                <li><a href="#">Privacy Notice</a></li>
+                <li><a href="#">Your Ads Privacy Choices</a></li>
+                <li><span class="footer-icon"></span></li>
+            </ul>
+            <span>© 1996-2023, Amazon.com, Inc. or its affiliates</span>
+        </div>
+    </footer>
+</body>
+
+</html>
